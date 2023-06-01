@@ -1,0 +1,80 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+
+
+.container{
+    
+}
+.overley{
+   display: flex;
+    justify-content: space-between;
+    margin: 60px;
+
+}
+.overlay-fead{
+    position: relative;
+}
+.overlay-fead img{
+    width: 100%;
+    height: auto;
+    display: block;
+    padding: 0 30px;
+  
+    
+
+}
+
+.overlay-fead h3{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+   background-color: rgba(128, 255, 0, 0.324);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    transition: 0.5s;
+    opacity: 0;
+}
+
+.overlay-fead:hover h3{
+    opacity: 1;
+}
+.overlay-fead2{
+    position: relative;
+}
+.overlay-fead2 img{
+    width: 100%;
+    height: auto;
+    display: block;
+   
+  
+}
+.overlay-fead2 h3{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 206, 209, 0.47);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    transition: 0.5s;
+    opacity: 0;
+}
+
+    
+.overlay-fead2:hover h3{
+    opacity: 1;
+}
